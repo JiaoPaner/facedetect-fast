@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+/facedetect-v1/facedetect-v1.VC.db
+/facedetect-v1/facedetection.VC.db
+/facedetect-v1/facedetect-v1.VC.VC.opendb
+/facedetect-v1/*.opendb
+/facedetect-v1/facedetect-v1/*.vcxproj
+/facedetect-v1/facedetect-v1/*.filters
+/facedetect-v1/facedetect-v1/x64
+/facedetect-v2/*.opendb
+/facedetect-v2/*.db

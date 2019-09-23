@@ -15,17 +15,23 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="facedetectcnn.h">
+    <ClInclude Include="cJSON.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="facedetectapi.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="cJSON.h">
+    <ClInclude Include="facedetectcnn.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="cJSON.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="facedetectapi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="facedetectcnn.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -36,12 +42,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="facedetectapi.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="cJSON.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

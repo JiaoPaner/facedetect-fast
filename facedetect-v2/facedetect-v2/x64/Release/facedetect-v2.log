@@ -9,9 +9,10 @@ cJSON.c(625): warning C4267: “+=”: 从“size_t”转换到“int”，可�
 facedetectcnn-model.cpp(495): warning C4101: “t”: 未引用的局部变量
   facedetectcnn.cpp
   main.cpp
-    正在创建库 C:\programing\projects\c++\facedetect-v2\x64\Release\facedetect-v2.lib 和对象 C:\programing\projects\c++\facedetect-v2\x64\Release\facedetect-v2.exp
+    正在创建库 C:\programing\projects\c++\facedetect-fast\facedetect-v2\x64\Release\facedetect-v2.lib 和对象 C:\programing\projects\c++\facedetect-fast\facedetect-v2\x64\Release\facedetect-v2.exp
   正在生成代码
-  All 567 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+c:\programing\projects\c++\facedetect-fast\facedetect-v2\facedetect-v2\facedetectcnn.cpp(347): warning C4752: 发现 Intel(R) 高级矢量扩展；请考虑使用 /arch:AVX
+  All 590 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   已完成代码的生成
-  facedetect-v2.vcxproj -> C:\programing\projects\c++\facedetect-v2\x64\Release\facedetect-v2.dll
-  facedetect-v2.vcxproj -> C:\programing\projects\c++\facedetect-v2\x64\Release\facedetect-v2.pdb (Full PDB)
+  facedetect-v2.vcxproj -> C:\programing\projects\c++\facedetect-fast\facedetect-v2\x64\Release\facedetect-v2.exe
+  facedetect-v2.vcxproj -> C:\programing\projects\c++\facedetect-fast\facedetect-v2\x64\Release\facedetect-v2.pdb (Full PDB)

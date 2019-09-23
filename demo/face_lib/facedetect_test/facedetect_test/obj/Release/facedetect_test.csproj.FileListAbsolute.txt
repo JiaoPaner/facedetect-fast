@@ -1,0 +1,9 @@
+C:\programing\projects\c#\facedetect_test\facedetect_test\bin\Release\facedetect_test.exe.config
+C:\programing\projects\c#\facedetect_test\facedetect_test\bin\Release\facedetect_test.exe
+C:\programing\projects\c#\facedetect_test\facedetect_test\bin\Release\facedetect_test.pdb
+C:\programing\projects\c#\facedetect_test\facedetect_test\obj\Release\facedetect_test.csprojResolveAssemblyReference.cache
+C:\programing\projects\c#\facedetect_test\facedetect_test\obj\Release\facedetect_test.Properties.Resources.resources
+C:\programing\projects\c#\facedetect_test\facedetect_test\obj\Release\facedetect_test.csproj.GenerateResource.Cache
+C:\programing\projects\c#\facedetect_test\facedetect_test\obj\Release\facedetect_test.exe
+C:\programing\projects\c#\facedetect_test\facedetect_test\obj\Release\facedetect_test.pdb
+C:\programing\projects\c#\facedetect_test\facedetect_test\obj\Release\facedetect_test.Form.resources

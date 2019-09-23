@@ -2,11 +2,12 @@
 #include <stdio.h>
 #include <opencv2/opencv.hpp>
 #include "facedetectcnn.h"
+#include "facedetectapi.h"
 
 //define the buffer size. Do not change the size!
-#define DETECT_BUFFER_SIZE 0x20000
+//#define DETECT_BUFFER_SIZE 0x20000
 using namespace cv;
-
+//extern char* detect(Mat src);
 int main(int argc, char* argv[])
 {
 	/*
@@ -68,6 +69,8 @@ int main(int argc, char* argv[])
 	//release the buffer
 	free(pBuffer);
 	*/
+
+	/*----------------------------------------------------------------
 	VideoCapture capture;
 	capture.open(0);
 	//if (!capture.isOpened())
@@ -115,6 +118,35 @@ int main(int argc, char* argv[])
 			break;
 		}
 	}
+	*/
+
+	/*
+	VideoCapture capture;
+	capture.open(0);
+	if (!capture.isOpened()){
+		cout << "can't open video" << endl;
+		return -1;
+	}
+	Mat frame;
+	while (true){
+		capture >> frame;
+		int size = frame.total() * frame.elemSize();
+		unsigned char* bytes = new unsigned char[size];
+		std::memcpy(bytes, frame.data, size * sizeof(unsigned char));
+		char* result = facedetect(bytes, frame.cols, frame.rows, frame.channels());
+		printf(result);
+		//imwrite("detect.jpg", frame);
+		//char* result = detect(frame);
+		//printf(result);
+		//imshow("result_cnn", frame);
+		char c = waitKey(30);
+		if (c == 27){
+			break;
+		}
+	}
+	*/
+	std::cout << facedetect_file(argv[1]);
+	waitKey(0);
 	return 0;
 }
 

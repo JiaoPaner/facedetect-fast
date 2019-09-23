@@ -1,0 +1,1 @@
+C:\programing\projects\c#\facedetect_test\facedetect_test\bin\Debug\facedetect_test.exe.config
