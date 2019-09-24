@@ -99,12 +99,6 @@ namespace facedetect_test
 
         private void ReportResults(Bitmap bmp, FaceDetectionResult faceDetectionResult)
         {
-            //Bitmap newbmp = new Bitmap(512, 512);
-            foreach (var f in faceDetectionResult.Faces)
-            {
-                //newbmp.SetPixel(f.X, f.Y, Color.Red);
-            }
-
             using (var G = Graphics.FromImage(bmp))
             {
                 var counter = 1;
@@ -114,12 +108,9 @@ namespace facedetect_test
                     G.DrawRectangle(new Pen(Color.Yellow, 2.5f), new Rectangle(f.X, f.Y, f.Width, f.Height));
                     counter++;
                 }
-                //G.DrawRectangle(Pens.Red, new Rectangle());
             }
 
             pctResult.Image = bmp;
-            //newbmp.Save(@"c:\newbmp\newbmp.bmp", ImageFormat.Bmp);
-            //newbmp.Dispose();
         }
     }
 }
