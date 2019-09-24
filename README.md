@@ -1,3 +1,4 @@
 # facedetect-fast
-maybe the fastest face detector 
-# add description and install guide.to do  
+Maybe the fastest face detector 
+<img src="screenshot.png" alt="Example result of base spectrogram" >
+#ToDo: Add description and installation guide.
