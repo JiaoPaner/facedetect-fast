@@ -39,3 +39,9 @@
 /facedetect-v1/facedetect-v1/x64
 /facedetect-v2/*.opendb
 /facedetect-v2/*.db
+/demo/face_lib/facedetect_test/.vs/facedetect_test/v16
+/demo/face_lib/facedetect_test/.vs/CodeNav.json
+/demo/face_lib/facedetect_test/facedetect_test/bin/x64/Release
+/demo/face_lib/facedetect_test/facedetect_test/obj/Debug/facedetect_test.csprojAssemblyReference.cache
+/demo/face_lib/facedetect_test/facedetect_test/obj/Release
+/demo/face_lib/facedetect_test/facedetect_test/obj/x64/Release
