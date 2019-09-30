@@ -459,7 +459,7 @@ bool maxpooling2x2S2(const CDataBlob<unsigned char> *inputData, CDataBlob<unsign
 #if defined(_ENABLE_NEON)
 /*
 #elif defined(_ENABLE_AVX2) //todo fix
-			for (int ch = 0; ch < outputData->channels; ch += 8)
+			for (int ch = 0; ch < outputData->channels; ch += 8) //should modify to 32
 			{
 				printf("--------------maxpooling2x2S2--------------\n");
 				__m256i a;
