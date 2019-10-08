@@ -39,3 +39,15 @@ C:\programing\projects\c++\facedetect-fast\demo\face_lib\facedetect_test\facedet
 C:\programing\projects\c++\facedetect-fast\demo\face_lib\facedetect_test\facedetect_test\obj\Release\Fakes\nj\o\f.csprojResolveAssemblyReference.cache
 C:\programing\projects\c++\facedetect-fast\demo\face_lib\facedetect_test\facedetect_test\obj\Release\Fakes\nj\o\Newtonsoft.Json.Fakes.dll
 C:\programing\projects\c++\facedetect-fast\demo\face_lib\facedetect_test\facedetect_test\obj\Release\Fakes\nj\o\Newtonsoft.Json.Fakes.pdb
+C:\programing\projects\c++\facedetect-fast\demo\facedetect_test\facedetect_test\bin\Release\facedetect_test.exe.config
+C:\programing\projects\c++\facedetect-fast\demo\facedetect_test\facedetect_test\obj\Release\facedetect_test.pdb
+C:\programing\projects\c++\facedetect-fast\demo\facedetect_test\facedetect_test\bin\Release\facedetect_test.exe
+C:\programing\projects\c++\facedetect-fast\demo\facedetect_test\facedetect_test\bin\Release\facedetect_test.pdb
+C:\programing\projects\c++\facedetect-fast\demo\facedetect_test\facedetect_test\bin\Release\Newtonsoft.Json.dll
+C:\programing\projects\c++\facedetect-fast\demo\facedetect_test\facedetect_test\bin\Release\Newtonsoft.Json.xml
+C:\programing\projects\c++\facedetect-fast\demo\facedetect_test\facedetect_test\obj\Release\facedetect_test.csprojFakesResolveAssemblyReference.cache
+C:\programing\projects\c++\facedetect-fast\demo\facedetect_test\facedetect_test\obj\Release\facedetect_test.csprojResolveAssemblyReference.cache
+C:\programing\projects\c++\facedetect-fast\demo\facedetect_test\facedetect_test\obj\Release\facedetect_test.Form.resources
+C:\programing\projects\c++\facedetect-fast\demo\facedetect_test\facedetect_test\obj\Release\facedetect_test.Properties.Resources.resources
+C:\programing\projects\c++\facedetect-fast\demo\facedetect_test\facedetect_test\obj\Release\facedetect_test.csproj.GenerateResource.Cache
+C:\programing\projects\c++\facedetect-fast\demo\facedetect_test\facedetect_test\obj\Release\facedetect_test.exe

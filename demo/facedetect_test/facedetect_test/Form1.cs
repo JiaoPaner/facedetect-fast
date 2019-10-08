@@ -17,10 +17,10 @@ namespace facedetect_test
 {
     public partial class Form : System.Windows.Forms.Form
     {
-        [DllImport(@"facedetect-v1-x64.dll")]
+        [DllImport(@"facedetect-v2.dll")]
         static extern string facedetect_file(string src);
 
-        [DllImport(@"facedetect-v1-x64.dll")]
+        [DllImport(@"facedetect-v2.dll")]
         static extern string facedetect(byte[] bytes, int width, int height, int channels);
         public Form()
         {

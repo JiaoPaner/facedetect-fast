@@ -120,7 +120,7 @@ int main(int argc, char* argv[])
 	}
 	*/
 
-	/*
+	/**/
 	VideoCapture capture;
 	capture.open(0);
 	if (!capture.isOpened()){
@@ -135,6 +135,8 @@ int main(int argc, char* argv[])
 		std::memcpy(bytes, frame.data, size * sizeof(unsigned char));
 		char* result = facedetect(bytes, frame.cols, frame.rows, frame.channels());
 		printf(result);
+		free(result);
+		free(bytes);
 		//imwrite("detect.jpg", frame);
 		//char* result = detect(frame);
 		//printf(result);
@@ -144,8 +146,8 @@ int main(int argc, char* argv[])
 			break;
 		}
 	}
-	*/
-	std::cout << facedetect_file(argv[1]);
+	
+	//std::cout << facedetect_file(argv[1]);
 	waitKey(0);
 	return 0;
 }

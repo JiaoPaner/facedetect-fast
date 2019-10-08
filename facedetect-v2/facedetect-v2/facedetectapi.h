@@ -1,6 +1,6 @@
 #pragma once
 #pragma once
-#define LIB_API __declspec(dllexport) //µ¼³öº¯Êý
+#define LIB_API __declspec(dllexport) 
 
 extern "C" {
 	LIB_API char*   facedetect_file(char* src);
